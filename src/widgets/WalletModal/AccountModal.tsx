@@ -23,8 +23,8 @@ const AccountModal: React.FC<Props> = ({ account, logout, onDismiss = () => null
       {account}
     </Text>
     <Flex mb="32px">
-      <LinkExternal small href={`https://andromeda-explorer.metis.io//address/${account}`} mr="16px">
-        View on Metis Explorer
+      <LinkExternal small href={`https://ftmscan.com/address/${account}`} mr="16px">
+        View on Fantom Explorer
       </LinkExternal>
       <CopyToClipboard toCopy={account}>Copy Address</CopyToClipboard>
     </Flex>
